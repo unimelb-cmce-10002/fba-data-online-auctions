@@ -1,1 +1,5 @@
 output/*
+.Rproj.user
+.secrets
+data_out/*
+*.Rproj

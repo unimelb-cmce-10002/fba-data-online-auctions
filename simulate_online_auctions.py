@@ -86,8 +86,8 @@ def generate_auction(auction_id):
         "seller": seller,
         "bids": bids,
         "final_price": bids[-1]["amount"],
-        "winner_id": bids[-1]["bidder_id"],
-        "tags": fake.words(nb=random.randint(2, 5))
+        "winner_id": bids[-1]["bidder_id"] #,
+        #"tags": fake.words(nb=random.randint(2, 5))
     }
 
 # Main function
